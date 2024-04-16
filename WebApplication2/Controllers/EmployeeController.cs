@@ -10,9 +10,9 @@ namespace WebApplication2.Controllers
 
             List<Employee> employees = new List<Employee>()
         {
-            new Employee { FirstName = "maha", LastName = "salem",Email=" MAHA@gmail.com" , Department = "it"},
-            new Employee { FirstName = "Amar", LastName = "alfailkawi",Email="amar@gmail.com" , Department = "it"},
-             new Employee { FirstName = "haya", LastName = "alqahtani",Email="haya@gmz" , Department = "it"}
+            new Employee { EmployeeID= 122  , FirstName = "maha", LastName = "salem",Email=" MAHA@gmail.com" , Department = "it"},
+            new Employee { EmployeeID= 299 ,FirstName = "Amar", LastName = "alfailkawi",Email="amar@gmail.com" , Department = "it"},
+             new Employee { EmployeeID= 777 , FirstName = "haya", LastName = "alqahtani",Email="haya@gmz" , Department = "it"}
         };
           
             return View(employees);
